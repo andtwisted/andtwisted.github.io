@@ -9,7 +9,12 @@
     <div class="form-selection">
       <form [formGroup]="form" class="imessage-form">
       <div class="main-heading d-flex justify-content-between align-items-center">
-      <h1>iMessage Generator</h1>
+        <h1>iMessage Generator</h1>
+      </div>
+      <label>
+      <input type="checkbox" formControlName="isGroupChat" class="form-check-input" />
+        Group Chat?
+      </label>
     </div>
   </body>
 </html>
